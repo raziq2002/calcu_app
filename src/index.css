@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightblue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-container {
+  margin: 15px;
+
+}
+
+.calc-button {
+  background-color: darkslategrey; 
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+.calc-button:hover {
+  background-color: black;
+}
+
+.calc-button:active {
+  transform: scale(0.95);
+}
+
+.operator {
+  background-color: grey; 
+}
+
+.operator:hover {
+  background-color: black; 
+}
+
+.calculator-heading:hover {
+  transform: scale(1.05); 
+}
